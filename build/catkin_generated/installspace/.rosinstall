@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/pray/kobuki_ws/install/setup.sh
