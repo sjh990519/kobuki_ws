@@ -22,8 +22,7 @@
 
 
 <br><br>
-<br><br>
-<br><br>
+---
 
 
 
@@ -32,7 +31,6 @@
 
 
 
-<br><br>
 <br><br>
 
 
@@ -45,7 +43,7 @@
 
 
 <br><br>
-<br><br>
+
 
 
 ### USB Serial Port latency_timer 지정 방법 ###
@@ -57,7 +55,7 @@
 
 
 <br><br>
-<br><br>
+
 
 
 
@@ -68,7 +66,7 @@
 
 
 <br><br>
-<br><br>
+
 
 
 
@@ -83,7 +81,6 @@
 
 
 <br><br>
-<br><br>
 
 
 
@@ -94,7 +91,6 @@
 
 
 
-<br><br>
 <br><br>
 
 
