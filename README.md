@@ -1,4 +1,4 @@
-## ROS 오류 모음집 (해결하는 방법)
+## ROS Error party (해결하는 방법)
 
 
 
@@ -19,10 +19,9 @@
 ##### URL : https://stdworkflow.com/1304/ros-problem-solving-fatal-error-ros-ros-h-no-such-file-or-directory-include-ros-ros-h
 ##### [ ros/ros.h 오류 부분 ]
 
-
+---
 
 <br><br>
----
 
 
 
@@ -30,7 +29,7 @@
 ##### URL : https://velog.io/@jaewon_/ROS-%EC%84%A4%EC%B9%98-3-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95
 
 
-
+---
 <br><br>
 
 
@@ -41,7 +40,7 @@
 ##### URL : https://cafe.naver.com/openrt/6199
 ##### [ kobuki 버전이 낮을 시 사용 ]
 
-
+---
 <br><br>
 
 
@@ -53,7 +52,7 @@
 ##### [ Desktop, Raspberry Pi ssh 통신 시 "atency_timer: Permission denied" 에러 날 때 ]
 
 
-
+---
 <br><br>
 
 
@@ -64,7 +63,7 @@
 ##### URL : https://velog.io/@717lumos/Linux-USB-%EC%9E%A5%EC%B9%98-%EC%9D%B4%EB%A6%84-%EA%B3%A0%EC%A0%95%ED%95%98%EA%B8%B0-udev-%EC%84%A4%EC%A0%95-Symbolic-Link%EC%8B%AC%EB%B3%BC%EB%A6%AD-%EB%A7%81%ED%81%AC-%EB%A7%8C%EB%93%A4%EA%B8%B0
 
 
-
+---
 <br><br>
 
 
@@ -79,7 +78,7 @@
 ######### [ $ rosrun rqt_logger_level rqt_logger_level ]
 
 
-
+---
 <br><br>
 
 
@@ -90,7 +89,7 @@
 ##### URL : https://groups.google.com/g/korea-ros-users/c/mzFOwqyOyXo
 
 
-
+---
 <br><br>
 
 
@@ -101,7 +100,8 @@
 ##### URL : https://omorobot.gitbook.io/manual/product/omo-r1mini/ros/ros1-melodic/remote-access
 
 
-
+---
+<br><br>
 
 
 
