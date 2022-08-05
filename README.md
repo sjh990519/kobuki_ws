@@ -1,4 +1,4 @@
-## ROS Error party (해결하는 방법)
+## ROS Error XXXX (해결하는 방법)
 
 
 
