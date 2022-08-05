@@ -43,9 +43,13 @@ export ROS_HOSTNAME=데스크탑아이피
 export ROS_MASTER_URI=http://${ROS HOSTNAME}:11311
 ```
 
-
-
-
+#### 2) ROS 환경 설정 변경 확인
+```
+$ source ~/.bashrc
+```
+```
+$ export |grep ROS
+```
 
 
 
