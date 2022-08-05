@@ -70,27 +70,31 @@ $ cd ~/kobuki_ws && catkin_make
 
 <br><br>
 ### 2) 거북이 노드 실행
-  * [ 데스크탑 ]
+  * [ Desktop ]
 ```
 $ roscore
 ```
-  *  [ 라즈베리파이 ]
+  *  [ Raspberry Pi ]
 ```
 $ roslaunch kobuki_node minimal.launch --screen
 ```
 
 <br><br>
 ### 3) kobuki_slam 실행
-  *  데스크탑
+* [ Desktop ]
   *  kobuki_slam 패키지는 단순히 런치 파일 하나로만 구성 원래는  LRF의 드라이버인 urg_node 노드, 좌표 변환을 위한 tf 를 활용한 kobuki_tf 노드, 맵 작성을 위해 slam_gmapping 노드를 포함하여 총 3개의 노드가 함께 실행 된다. <br><br>
 
 
   *  하지만 이 패키지의 경우 센서를 LDS-01 lidar 센서를 사용하므로  kobuki_slam.launch 파일에 urg_node 를  hls_lfcd_lds_driver로 수정한다.
 
 ##### 심볼릭 링크에 센서 권한을 설정하지 않았다면 아래와 같이 센서 권한을 바꿔야 한다.
+
+*  [ Raspberry Pi ]
 ```
 $ sudo chmod a+rw /dev/ttyLiDAR
 ```
+
+*  [ Desktop ]
 ```
 $ roslaunch kobuki_slam kobuki_slam.launch
 ```
