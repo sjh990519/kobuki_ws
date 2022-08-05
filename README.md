@@ -16,7 +16,7 @@
 <br><br>
 ## Desktop && Raspverry Pi (SSH Connect)
 
-### 1) Desktop
+### Desktop
 ```
 $ sudo apt-get install chrony
 ```
@@ -27,6 +27,11 @@ $ sudo ntpdate -q ntp.ubuntu.com
 ```
 $ sudo apt-get install nptdate
 ```
+
+#### 1) ROS 환경 설정 
+
+
+
 
 
 
