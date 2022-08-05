@@ -14,7 +14,7 @@
 
 ---
 <br><br>
-## Desktop && Raspverry Pi SSH Connect
+## Desktop && Raspverry Pi (SSH Connect)
 
 ### 1) Desktop
 ```
