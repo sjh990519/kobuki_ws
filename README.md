@@ -47,7 +47,7 @@ $ sudo apt-get install ros-noetic-openni-camera ros-noetic-openni-launch
 ---
 <br><br>
 
-## 
+## SLAM 실행
 
 
 
