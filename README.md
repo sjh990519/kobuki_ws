@@ -33,7 +33,7 @@ $ sudo apt-get install nptdate
 $ gedit ~/.bashrc
 ```
 
-##### ~/.bashrc
+##### ~/.bashrc 에 추가 
 ```
 source /opt/ros/noetic/setup.bash
 source ~/kobuki_ws/devel/setup.bash
