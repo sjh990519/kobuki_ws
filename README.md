@@ -1,5 +1,7 @@
 # 개인 공부용
 
+## 참고 : https://cafe.naver.com/openrt/6258
+
 <br><br><br>
 
 # kobuki_ws
@@ -53,9 +55,16 @@ $ sudo apt-get install ros-noetic-openni-camera ros-noetic-openni-launch
 
 ## SLAM 실행
 
+### 1) 소스다운 및 검파일
+```
+$ cd ~/kobuki_ws/src
+```
 
+```
+$ git clone https://github.com/oroca/rosbook_kobuki.git
+```
 
-
-
-
+```
+$ cd ~/kobuki_ws && catkin_make
+```
 
