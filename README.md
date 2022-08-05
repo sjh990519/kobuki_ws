@@ -32,11 +32,11 @@ $ sudo apt-get install nptdate
 ```
 $ gedit ~/.bashrc
 ```
+
+##### ~/.bashrc
 ```
-$ source /opt/ros/noetic/setup.bash
-```
-```
-$ source ~/kobuki_ws/devel/setup.bash
+source /opt/ros/noetic/setup.bash
+source ~/kobuki_ws/devel/setup.bash
 ```
 
 ##### Set ROS Network
