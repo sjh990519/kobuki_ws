@@ -80,7 +80,7 @@
 
 ##### URL : https://stackoverflow.com/questions/69241078/error-in-subscribing-new-topic-to-the-gmapping-package
 
-######### [ $ rosrun rqt_logger_level rqt_logger_level ]
+#####[ $ rosrun rqt_logger_level rqt_logger_level ]
 
 
 ---
