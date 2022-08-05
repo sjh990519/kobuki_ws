@@ -37,10 +37,8 @@ $ gedit ~/.bashrc
 ```
 source /opt/ros/noetic/setup.bash
 source ~/kobuki_ws/devel/setup.bash
-```
 
-##### Set ROS Network
-```
+#  Set ROS Network
 export ROS_HOSTNAME=데스크탑아이피
 export ROS_MASTER_URI=http://${ROS HOSTNAME}:11311
 ```
