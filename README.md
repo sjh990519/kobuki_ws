@@ -9,8 +9,8 @@
 
 
 
-## kobuki_slam.launch
-   1. kobuki_tf
-   2. laser
-   3. kobuki_gmapping
+## SLAM을 위한 ROS 패키지
+$ sudo apt-get install ros-noetic-gmapping
+$ sudo apt-get install ros-noetic-navigation
+
 
