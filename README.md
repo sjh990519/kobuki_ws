@@ -70,11 +70,11 @@ $ cd ~/kobuki_ws && catkin_make
 
 <br><br>
 ### 2) 거북이 노드 실행
-  * 데스크탑
+  * [ 데스크탑 ]
 ```
 $ roscore
 ```
-  *  라즈베리파이
+  *  [ 라즈베리파이 ]
 ```
 $ roslaunch kobuki_node minimal.launch --screen
 ```
