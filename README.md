@@ -29,13 +29,30 @@ $ sudo apt-get install nptdate
 ```
 
 #### 1) ROS 환경 설정 
-##### /.bashrc 에 젤 밑에 추가한다.
+```
+$ gedit ~/.bashrc
+```
 ```
 $ source /opt/ros/noetic/setup.bash
 ```
 ```
 $ source ~/kobuki_ws/devel/setup.bash
 ```
+
+##### Set ROS Network
+```
+export ROS_HOSTNAME=데스크탑아이피
+export ROS_MASTER_URI=http://${ROS HOSTNAME}:11311
+```
+
+
+
+
+
+
+
+
+
 
 
 ## SLAM을 위한 ROS 패키지
