@@ -72,10 +72,10 @@
 
 
 ### Gmapping package topic 오류  ###
-
+<br>
 
 ##### [ laser_sensor, map_server -> topic 에러 날 시 ]
-<br>
+
 ##### URL : https://answers.ros.org/question/313820/error-cannot-launch-node-of-type-gmappingslam_gmapping-cant-locate-node-slam_gmapping-in-package-gmapping/
 
 ##### URL : https://stackoverflow.com/questions/69241078/error-in-subscribing-new-topic-to-the-gmapping-package
