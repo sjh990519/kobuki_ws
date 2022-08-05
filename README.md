@@ -29,6 +29,7 @@ $ sudo apt-get install nptdate
 ```
 
 #### 1) ROS 환경 설정 
+#### .bashrc 파일 젤 하단에 아래를 추가한다.
 ```
 $ source /opt/ros/noetic/setup.bash
 ```
