@@ -185,7 +185,7 @@ or
 [ERROR] [1358185986.942876038]: Kobuki : Timed out while waiting for serial data stream [/mobile_base].
 ```
 1. kobuki_firmware upgrade 필요
-2. kobuki USB Serial Port latency_timer update 필요
+2. USB Serial Port latency_timer update 필요
 
 <br><br>
 ### 3) kobuki_slam 실행
