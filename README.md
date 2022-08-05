@@ -16,7 +16,7 @@
 <br><br>
 ## Desktop && Raspverry Pi (SSH Connect)
 
-### Desktop
+### 1. Desktop
 ```
 $ sudo apt-get install chrony
 ```
