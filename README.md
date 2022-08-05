@@ -178,7 +178,7 @@ $ roscore
 ```
 $ roslaunch kobuki_node minimal.launch --screen
 ```
-#### 2-1) 실행 시 에러 상황
+#### 2-1) roslaunch kobuki_node minimal.launch --screen [ ERROR ]
 ```
 [ERROR] [1358185944.885286960]: Kobuki : malformed sub-payload detected. 
 or
