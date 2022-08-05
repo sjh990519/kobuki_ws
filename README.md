@@ -87,12 +87,10 @@ $ roslaunch kobuki_node minimal.launch --screen
 
   *  하지만 이 패키지의 경우 센서를 LDS-01 lidar 센서를 사용하므로  kobuki_slam.launch 파일에 urg_node 를  hls_lfcd_lds_driver로 수정한다.
 
+##### 심볼릭 링크에 센서 권한을 설정하지 않았다면 아래와 같이 센서 권한을 바꿔야 한다.
 ```
 $ sudo chmod a+rw /dev/ttyLiDAR
 ```
-#### 심볼릭 링크에 센서 권한을 설정하지 않았다면 위와 같이 센서 권한을 바꿔야 한다.
-
-
 ```
 $ roslaunch kobuki_slam kobuki_slam.launch
 ```
