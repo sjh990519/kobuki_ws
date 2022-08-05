@@ -14,8 +14,19 @@
 
 ---
 <br><br>
-## Desktop과 Raspverry Pi SSH 연결
+## Desktop && Raspverry Pi SSH Connect
 
+### 1) Desktop
+```
+$ sudo apt-get install chrony
+```
+```
+$ sudo ntpdate -q ntp.ubuntu.com
+```
+(만약 ntpdate not found 일 경우)
+```
+$ sudo apt-get install nptdate
+```
 
 
 
