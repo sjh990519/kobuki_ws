@@ -15,6 +15,9 @@
 ---
 <br><br>
 ## Desktop && Raspverry Pi (SSH Connect)
+* 조건 : 서로 같은 네트워크를 사용해야한다.
+* 필자의 경우 데스트톱을 유선랜 연결이 아닌 WIIF 동글을 데스크탑에 착용하여 공유기의 무선랜을 사용
+
 
 ### 1. Desktop
 ```
@@ -39,8 +42,8 @@ source /opt/ros/noetic/setup.bash
 source ~/kobuki_ws/devel/setup.bash
 
 #  Set ROS Network
-export ROS_HOSTNAME=데스크탑아이피
-export ROS_MASTER_URI=http://${ROS HOSTNAME}:11311
+export ROS_HOSTNAME=데스크탑_IP
+export ROS_MASTER_URI=http://데스크탑_IP:11311
 ```
 
 #### 2) ROS 환경 설정 변경 확인
@@ -58,6 +61,52 @@ $ sudo apt-get install ssh
 
 ---
 ---
+
+### 2. Raspberry Pi
+
+#### 1) SSH install
+```
+$ sudo apt-get install ssh
+```
+
+#### 2) 서로 다른 PC간의 통신에서 ROS Time 오차 줄이기
+```
+$ sudo apt-get install ssh
+```
+```
+$ sudo apt-get install chrony
+```
+```
+$ sudo ntpdate -q ntp.ubuntu.com
+```
+(만약 ntpdate not found 일 경우)
+```
+$ sudo apt-get install nptdate
+```
+
+#### 3) ROS 환경 설정
+```
+$ nano ~/.bashrc
+```
+
+##### ~/.bashrc 에 추가 
+```
+source /opt/ros/noetic/setup.bash
+source ~/kobuki_ws/devel/setup.bash
+
+#  Set ROS Network
+export ROS_HOSTNAME=라즈베리파이_IP
+export ROS_MASTER_URI=http://데스크탑_IP:11311
+```
+
+
+
+
+
+
+
+
+
 
 
 ## SLAM을 위한 ROS 패키지
