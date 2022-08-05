@@ -29,10 +29,12 @@ $ sudo apt-get install nptdate
 ```
 
 #### 1) ROS 환경 설정 
-
-
-
-
+```
+$ source /opt/ros/noetic/setup.bash
+```
+```
+$ source ~/kobuki_ws/devel/setup.bash
+```
 
 
 ## SLAM을 위한 ROS 패키지
