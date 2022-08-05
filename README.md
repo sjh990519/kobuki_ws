@@ -15,7 +15,7 @@
 ---
 <br><br>
 
-## SLAM을 위한 ROS 패키지
+## 1. SLAM을 위한 ROS 패키지
 
 * 모든 패키지를 거북이에 설치하고 진행하도록 하였다. 패키지의 설치, 각 노드, 런치파일의 실행은 모두 거북이 본체와 연결된 랩톱에서 실행했다.
 
@@ -50,7 +50,7 @@ $ sudo apt-get install ros-noetic-openni-camera ros-noetic-openni-launch
 
 ---
 <br><br>
-## Desktop && Raspverry Pi (SSH Connect)
+## 2. Desktop && Raspverry Pi (SSH Connect)
 * 조건 : 서로 같은 네트워크를 사용해야한다.
 * 필자의 경우 데스트톱을 유선랜 연결이 아닌 WiFi 동글을 데스크탑에 착용하여 공유기의 무선랜을 같이 사용
 
@@ -153,7 +153,7 @@ $ export |grep ROS
 
 
 <br><br>
-## SLAM 실행
+## 3. SLAM 실행
 
 ### 1) 소스다운 및 검파일
 ```
