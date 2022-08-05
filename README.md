@@ -46,8 +46,8 @@
 
 
 ### USB Serial Port latency_timer 지정 방법 ###
-
 <br>
+
 ##### [ Desktop, Raspberry Pi ssh 통신 시 "atency_timer: Permission denied" 에러 날 때 ]
 ##### URL : https://ahnbk.com/?p=836
 ##### URL : https://askubuntu.com/questions/696593/reduce-request-latency-on-an-ftdi-ubs-to-rs-232-adapter
