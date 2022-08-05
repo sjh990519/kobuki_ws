@@ -2,8 +2,7 @@
 
 ### OS  : Ubuntu 20.04 LTS, Raspbian buster
 ### Ros : Noetic Ninjemys
-### Robot : Kobuki (yujinrobot), Raspberry Pi 4 (Model B)
-            Kinect Sensor
+### Robot : Kobuki (yujinrobot), Raspberry Pi 4 (Model B) && Kinect Sensor
 ---
 <br><br>
 
