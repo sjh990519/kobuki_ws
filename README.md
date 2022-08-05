@@ -90,6 +90,8 @@ $ roslaunch kobuki_node minimal.launch --screen
 ```
 $ sudo chmod a+rw /dev/ttyLiDAR
 ```
+#### 심볼릭 링크에 센서 권한을 설정하지 않았다면 위와 같이 센서 권한을 바꿔야 한다.
+
 
 ```
 $ roslaunch kobuki_slam kobuki_slam.launch
