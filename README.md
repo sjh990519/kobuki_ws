@@ -5,7 +5,7 @@
 ### Raspberyy Pi ###
 
 #### catkin_make 시 자주 일어나는 에러 해결방법 
-
+<br><br>
 
 ##### [ catkin_make, sophus, ecl_xxxx 오류 부분 ]
 ##### URL : https://blog.csdn.net/Groot_Lee/article/details/79202507
@@ -33,10 +33,12 @@
 
 
 ### kobuki Firmware 업그레이드 방법 ###
+<br><br>
 
+##### [ kobuki 버전이 낮을 시 사용 ]
 ##### URL : https://kobuki.readthedocs.io/en/devel/firmware.html
 ##### URL : https://cafe.naver.com/openrt/6199
-##### [ kobuki 버전이 낮을 시 사용 ]
+
 
 ---
 <br><br>
@@ -45,9 +47,11 @@
 
 ### USB Serial Port latency_timer 지정 방법 ###
 
+<br><br>
+##### [ Desktop, Raspberry Pi ssh 통신 시 "atency_timer: Permission denied" 에러 날 때 ]
 ##### URL : https://ahnbk.com/?p=836
 ##### URL : https://askubuntu.com/questions/696593/reduce-request-latency-on-an-ftdi-ubs-to-rs-232-adapter
-##### [ Desktop, Raspberry Pi ssh 통신 시 "atency_timer: Permission denied" 에러 날 때 ]
+
 
 
 ---
@@ -69,10 +73,13 @@
 
 ### Gmapping package topic 오류  ###
 
+
+##### [ laser_sensor, map_server -> topic 에러 날 시 ]
+<br>
 ##### URL : https://answers.ros.org/question/313820/error-cannot-launch-node-of-type-gmappingslam_gmapping-cant-locate-node-slam_gmapping-in-package-gmapping/
 
 ##### URL : https://stackoverflow.com/questions/69241078/error-in-subscribing-new-topic-to-the-gmapping-package
-##### [ laser_sensor, map_server -> topic 에러 날 시 ]
+
 ######### [ $ rosrun rqt_logger_level rqt_logger_level ]
 
 
