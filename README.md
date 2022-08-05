@@ -51,10 +51,13 @@ $ source ~/.bashrc
 $ export |grep ROS
 ```
 
+#### 3) SSH install
+```
+$ sudo apt-get install ssh
+```
 
-
-
-
+---
+---
 
 
 ## SLAM을 위한 ROS 패키지
