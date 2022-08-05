@@ -178,6 +178,14 @@ $ roscore
 ```
 $ roslaunch kobuki_node minimal.launch --screen
 ```
+#### 2-1) 실행 시 에러 상황
+```
+[ERROR] [1358185944.885286960]: Kobuki : malformed sub-payload detected. 
+or
+[ERROR] [1358185986.942876038]: Kobuki : Timed out while waiting for serial data stream [/mobile_base].
+```
+
+
 
 <br><br>
 ### 3) kobuki_slam 실행
