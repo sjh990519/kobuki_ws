@@ -14,6 +14,42 @@
 
 ---
 <br><br>
+
+## SLAM을 위한 ROS 패키지
+
+* 모든 패키지를 거북이에 설치하고 진행하도록 하였다. 패키지의 설치, 각 노드, 런치파일의 실행은 모두 거북이 본체와 연결된 랩톱에서 실행했다.
+
+
+
+  * kobuki package는 yujinrobot git에서 clone
+  * slam_gmapping package는 git에 noetic 브렌치에 있는 것을 clone
+
+```
+$ sudo apt-get install ros-noetic-gmapping
+```
+
+<br>
+
+```
+$ sudo apt-get install ros-noetic-navigation
+```
+
+<br><br>
+
+### 1) hls_lfcd_lds_driver
+```
+$ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver
+```
+
+<br><br>
+
+### 2) Kinect
+```
+$ sudo apt-get install ros-noetic-openni-camera ros-noetic-openni-launch
+```
+
+---
+<br><br>
 ## Desktop && Raspverry Pi (SSH Connect)
 * 조건 : 서로 같은 네트워크를 사용해야한다.
 * 필자의 경우 데스트톱을 유선랜 연결이 아닌 WiFi 동글을 데스크탑에 착용하여 공유기의 무선랜을 같이 사용
@@ -99,52 +135,24 @@ export ROS_HOSTNAME=라즈베리파이_IP
 export ROS_MASTER_URI=http://데스크탑_IP:11311
 ```
 
-
-
-
-
-
-
-
-
-
-
-## SLAM을 위한 ROS 패키지
-
-* 모든 패키지를 거북이에 설치하고 진행하도록 하였다. 패키지의 설치, 각 노드, 런치파일의 실행은 모두 거북이 본체와 연결된 랩톱에서 실행했다.
-
-
-
-  * kobuki package는 yujinrobot git에서 clone
-  * slam_gmapping package는 git에 noetic 브렌치에 있는 것을 clone
-
+#### 4) ROS 환경 설정 변경 확인
 ```
-$ sudo apt-get install ros-noetic-gmapping
+$ source ~/.bashrc
+```
+```
+$ export |grep ROS
 ```
 
-<br>
 
-```
-$ sudo apt-get install ros-noetic-navigation
-```
+
+
+
+
+
+
+
 
 <br><br>
-
-### 1) hls_lfcd_lds_driver
-```
-$ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver
-```
-
-<br><br>
-
-### 2) Kinect
-```
-$ sudo apt-get install ros-noetic-openni-camera ros-noetic-openni-launch
-```
-
----
-<br><br>
-
 ## SLAM 실행
 
 ### 1) 소스다운 및 검파일
