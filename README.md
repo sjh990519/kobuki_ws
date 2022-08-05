@@ -28,3 +28,9 @@ $ sudo apt-get install ros-noetic-gmapping
 $ sudo apt-get install ros-noetic-navigation
 ```
 
+<br><br>
+
+1) hls_lfcd_lds_driver
+```
+$ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver
+```
