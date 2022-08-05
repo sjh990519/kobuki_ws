@@ -17,8 +17,7 @@
 
 ## 1. SLAM을 위한 ROS 패키지
 
-* 모든 패키지를 거북이에 설치하고 진행하도록 하였다. 패키지의 설치, 각 노드, 런치파일의 실행은 모두 거북이 본체와 연결된 랩톱에서 실행했다.
-
+* 모든 패키지를 * 모든 패키지를 Desktop && Rapsberry Pi 에 설치하고 진행하였다.
 
 
   * kobuki package는 yujinrobot git에서 clone
