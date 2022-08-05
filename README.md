@@ -11,6 +11,8 @@
 
 ## SLAM을 위한 ROS 패키지
 
+#### kobuki package는 yujibrobot git에서 clone 
+#### slam_gmapping package는 git에 noetic 브렌치에 있는 것을 clone
 
 ```
 $ sudo apt-get install ros-noetic-gmapping
