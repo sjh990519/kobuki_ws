@@ -214,6 +214,15 @@ $ roslaunch kobuki_slam kobuki_slam.launch
 $ rosrun rviz rviz -d 'rospack find kobuki_slam' /rviz/kobuki_slam.rviz
 ```
 
+#### 4-1) rosrun rviz rviz -d 'rospack find kobuki_slam' /rviz/kobuki_slam.rviz [ ERROR ]
+```
+[ WARN] [1632008194.010794315, 950.815000000]: MessageFilter [target=odom ]: Dropped 100.00% of messages so far. Please turn the [ros.gmapping.message_notifier] rosconsole logger to DEBUG for more information.
+```
+1. 위와 같이 Rviz 실행 시 라이다 센서 및 로봇 정보가 오지 않을 때 
+```
+$ rosrun rqt_logger_level rqt_logger_level
+```
+2. 위의 명령어 실행 후 넘어오지 않는 정보들을 Info -> Debug 로 변환 해준 후 Rviz를 다시 실행 한다.
 
 
 
@@ -221,7 +230,6 @@ $ rosrun rviz rviz -d 'rospack find kobuki_slam' /rviz/kobuki_slam.rviz
 
 <br><br>
 ### 5) Topic Data 저장
-
 
 
 
