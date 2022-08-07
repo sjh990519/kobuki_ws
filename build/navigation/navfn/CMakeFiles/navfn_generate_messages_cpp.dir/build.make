@@ -59,10 +59,10 @@ navigation/navfn/CMakeFiles/navfn_generate_messages_cpp: /home/pray/kobuki_ws/de
 
 /home/pray/kobuki_ws/devel/include/navfn/MakeNavPlan.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/pray/kobuki_ws/devel/include/navfn/MakeNavPlan.h: /home/pray/kobuki_ws/src/navigation/navfn/srv/MakeNavPlan.srv
-/home/pray/kobuki_ws/devel/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/pray/kobuki_ws/devel/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/pray/kobuki_ws/devel/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/pray/kobuki_ws/devel/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/pray/kobuki_ws/devel/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/pray/kobuki_ws/devel/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/pray/kobuki_ws/devel/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/pray/kobuki_ws/devel/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/pray/kobuki_ws/devel/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/pray/kobuki_ws/devel/include/navfn/MakeNavPlan.h: /opt/ros/noetic/share/gencpp/srv.h.template

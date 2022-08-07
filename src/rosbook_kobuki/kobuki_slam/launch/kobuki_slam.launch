@@ -1,7 +1,8 @@
 <launch>
+
   <node pkg="hls_lfcd_lds_driver" type="hlds_laser_publisher" name="hlds_laser_publisher" output="screen">
     <param name="port" value="/dev/ttyLiDAR"/>
-    <param name="frame_id" value="base_scan"/>
+    <param name="frame_id" value="laser"/>
   </node>
 
   <node pkg="kobuki_tf" type="kobuki_tf" name="kobuki_tf" output="screen">

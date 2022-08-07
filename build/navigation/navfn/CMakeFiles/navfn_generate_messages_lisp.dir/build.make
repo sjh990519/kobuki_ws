@@ -59,10 +59,10 @@ navigation/navfn/CMakeFiles/navfn_generate_messages_lisp: /home/pray/kobuki_ws/d
 
 /home/pray/kobuki_ws/devel/share/common-lisp/ros/navfn/srv/MakeNavPlan.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/pray/kobuki_ws/devel/share/common-lisp/ros/navfn/srv/MakeNavPlan.lisp: /home/pray/kobuki_ws/src/navigation/navfn/srv/MakeNavPlan.srv
-/home/pray/kobuki_ws/devel/share/common-lisp/ros/navfn/srv/MakeNavPlan.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/pray/kobuki_ws/devel/share/common-lisp/ros/navfn/srv/MakeNavPlan.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/pray/kobuki_ws/devel/share/common-lisp/ros/navfn/srv/MakeNavPlan.lisp: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/pray/kobuki_ws/devel/share/common-lisp/ros/navfn/srv/MakeNavPlan.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/pray/kobuki_ws/devel/share/common-lisp/ros/navfn/srv/MakeNavPlan.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/pray/kobuki_ws/devel/share/common-lisp/ros/navfn/srv/MakeNavPlan.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/pray/kobuki_ws/devel/share/common-lisp/ros/navfn/srv/MakeNavPlan.lisp: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/pray/kobuki_ws/devel/share/common-lisp/ros/navfn/srv/MakeNavPlan.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/pray/kobuki_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from navfn/MakeNavPlan.srv"
 	cd /home/pray/kobuki_ws/build/navigation/navfn && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/pray/kobuki_ws/src/navigation/navfn/srv/MakeNavPlan.srv -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p navfn -o /home/pray/kobuki_ws/devel/share/common-lisp/ros/navfn/srv
