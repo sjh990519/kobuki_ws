@@ -1,6 +1,5 @@
 # noetic && kobuki 최신화 
 
-## 참고 : https://cafe.naver.com/openrt/6258
 
 <br><br><br>
 
