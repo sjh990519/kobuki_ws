@@ -234,11 +234,23 @@ $ rosrun rqt_logger_level rqt_logger_level
 
 
 
+<br><br>
+### 5) 로봇 조종
+* 유저가 직접 로봇을 조정하며 SLAM 작업을 한다.
+* 로봇의 속도를 너무 급하게 바꾸거나 너무 빠른 속도로 전/후진 회전 하지 않도록 한다.
+* 계측할 환경의 세세하게 로봇이 돌아다니면서 스캔을 해야 정확하게 스캔이 가능하다.
+
+<br>
+
+*  [ Desktop ]
+```
+$ roslaunch kobuki_keyop keyop.launch
+```
 
 
 <br><br>
-### 5) Topic Data 저장
-
+### 6) Topic Data 저장
+* 
 
 
 
