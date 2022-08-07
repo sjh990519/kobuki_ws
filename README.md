@@ -2,12 +2,12 @@
 
 <p align="center">
  <img src = "https://user-images.githubusercontent.com/94280596/183295070-e0a2fa99-c87f-473c-95df-bd71389167af.png" align="right" width="300">
- <img src = "https://user-images.githubusercontent.com/94280596/183295113-872722db-8f0b-473d-8a0e-dcfab79536d2.png" align="left" width="300">
+ <img src = "https://user-images.githubusercontent.com/94280596/183295113-872722db-8f0b-473d-8a0e-dcfab79536d2.png" align="left">
 </p>
 
  
  
-<br><br><br>
+<br><br><br><br><br><br>
 # kobuki_ws
 
 ### OS  : Ubuntu 20.04 LTS, Raspbian buster
