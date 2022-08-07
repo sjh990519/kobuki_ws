@@ -1,8 +1,8 @@
 # noetic && kobuki
 
 <div>
- <img src = "https://user-images.githubusercontent.com/94280596/183295070-e0a2fa99-c87f-473c-95df-bd71389167af.png" width="70%" align='left'>
- <img src = "https://user-images.githubusercontent.com/94280596/183295113-872722db-8f0b-473d-8a0e-dcfab79536d2.png" height="70%" align='left'>
+ <img src = "https://user-images.githubusercontent.com/94280596/183295070-e0a2fa99-c87f-473c-95df-bd71389167af.png" width="60%" align='left'>
+ <img src = "https://user-images.githubusercontent.com/94280596/183295113-872722db-8f0b-473d-8a0e-dcfab79536d2.png" height="60%" align='left'>
 </div>
 
 
