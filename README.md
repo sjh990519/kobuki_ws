@@ -1,4 +1,4 @@
-# noetic && kobuki 최신화 
+# noetic && kobuki
 ![kobuki](https://user-images.githubusercontent.com/94280596/183295070-e0a2fa99-c87f-473c-95df-bd71389167af.png)
 
 <br><br><br>
