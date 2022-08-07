@@ -206,6 +206,33 @@ $ sudo chmod a+rw /dev/ttyLiDAR
 $ roslaunch kobuki_slam kobuki_slam.launch
 ```
 
+<br><br>
+### 4) Rviz 실행
+* SLAM 도중 결과를 눈으로 확인 할 수 있도록 ROS 의 시각화툴인 Rviz를 구동한다.
+* 구동 시 아래와 같이 옵션을 붙여주면 디스플레이 플러그인들이 처음부터 추가되어 매우 편리하다.
+```
+$ rosrun rviz rviz -d 'rospack find kobuki_slam' /rviz/kobuki_slam.rviz
+```
+
+
+
+
+
+
+<br><br>
+### 5) Topic Data 저장
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
