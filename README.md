@@ -255,14 +255,29 @@ $ roslaunch kobuki_keyop keyop.launch
 * 추후 이 파일을 가지고 맵을 만들 수도 있으며, 맵핑작업시에 실험 당시의 /scan과 /tf 토픽 을 재현할 수 있다.
 
 
+<br>
+
+*  [ Desktop ]
+```
+$ rosbag record -O scan_data /scan /tf
+```
+
+
+<br><br>
+### 7) Map 저장
+* 로봇을 이동시키면 로봇의 오도메트리, tf 정보, 센서의 스캔 정보를 기반으로 맵이 작성된다.
+* 모든 작업이 완료 되었으며 map_saver 노드를 실행하여 맵을 작성한다.
+* 저장은 map_saver를 동작시킨 디렉토리에 저장된다.
+* 파일명은 따로 붙이지 않으면 [ map.pgm 파일명과 / map.yaml 파일명으로 저장된다. ]
 
 
 
+<br>
 
-
-
-
-
+*  [ Desktop ]
+```
+$ rosrun map_server map_saver
+```
 
 
 
