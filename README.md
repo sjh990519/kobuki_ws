@@ -284,4 +284,7 @@ $ rosrun map_server map_saver
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 22c4a86f92661d19406e131e645a4e8d7e5c9908
