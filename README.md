@@ -207,8 +207,6 @@ or
 ```
 $ sudo chmod a+rw /dev/ttyLiDAR
 ```
-
-*  [ Desktop ]
 ```
 $ roslaunch kobuki_slam kobuki_slam.launch
 ```
