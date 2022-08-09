@@ -264,6 +264,12 @@ $ roslaunch kobuki_keyop keyop.launch
 * /scan, /tf 토픽을 scan_data 이라는 파일명의 .bag 파일로 저장한다.
 * 추후 이 파일을 가지고 맵을 만들 수도 있으며, 맵핑작업시에 실험 당시의 /scan과 /tf 토픽 을 재현할 수 있다.
 
+<br><br>
+
+
+### [ rqt_graph ]
+<img src = "https://user-images.githubusercontent.com/94280596/183589842-534c23ff-4ab4-483e-9e3b-b0ea081ada12.png" >
+
 
 <br>
 
