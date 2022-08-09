@@ -18,8 +18,10 @@ noetic && kobuki
 ### Robot : Kobuki (yujinrobot), Raspberry Pi 4 (Model B)
 ### Sensor : 360 Laser Distance Sensor LDS-01 (LIDAR) - ROBOTIS, Kinect Sensor
 
+<br><br>
 
-* Image
+
+### Image
 <img src ="https://user-images.githubusercontent.com/94280596/183586506-d32cf7c7-9875-4001-9b16-e47c537c897f.jpeg" width="50%" align='center'>
 
 
