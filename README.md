@@ -19,6 +19,10 @@ noetic && kobuki
 ### Sensor : 360 Laser Distance Sensor LDS-01 (LIDAR) - ROBOTIS, Kinect Sensor
 
 
+![코부키](https://user-images.githubusercontent.com/94280596/183586506-d32cf7c7-9875-4001-9b16-e47c537c897f.jpeg)
+
+
+
 ---
 <br><br>
 
