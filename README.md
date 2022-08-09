@@ -237,6 +237,10 @@ $ rosrun rqt_logger_level rqt_logger_level
 ```
 2. 위의 명령어 실행 후 넘어오지 않는 정보들을 Info -> Debug 로 변환 해준 후 Rviz를 다시 실행 한다.
 
+<br><br>
+
+<img src = "https://user-images.githubusercontent.com/94280596/183589265-d1b60dae-7ac6-4131-ba31-0ac030cd2018.png" >
+
 
 
 <br><br>
@@ -283,6 +287,25 @@ $ rosbag record -O scan_data /scan /tf
 ```
 $ rosrun map_server map_saver
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
