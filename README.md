@@ -270,6 +270,9 @@ $ roslaunch kobuki_keyop keyop.launch
 ```
 $ rosbag record -O scan_data /scan /tf
 ```
+```
+$ rqt_graph
+```
 
 <br><br>
 
